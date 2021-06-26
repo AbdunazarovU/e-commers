@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>eCommerse</title>
+</head>
+
+<body>
+
+    <!-- SITE_HEADER -->
+    <header class="site-header">
+        <div class="site-header__container container">
+            <button class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="sitenav">
+
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">Blog</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">About Us</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">Careers</a>
+                    </li>
+                </ul>
+                <div class="contact-us">
+                    <a class="contact-us__link contact-us__link-chat" href="#">Chat with us</a>
+                    <a class="contact-us__link" href="tel:+420336775664">+420 336 775 664</a>
+                    <a class="contact-us__link" href="#">info@freshnesecom.com</a>
+                </div>
+            </nav>
+
+            <div class="header-main">
+
+                <a class="site-header__logo" href="index.html">
+                    <img class="site-logo__img" src="img/site-header-logo.svg" alt="site logo" width="177" height="18">
+                </a>
+
+                <div class="search-box">
+                    <label class="visually-hidden" for="categories">All categories</label>
+                    <select class="categories-list" id="categories">
+                        <option value="all-categories">All categories</option>
+                        <option value="categories">categories</option>
+                        <option value="categories">categories</option>
+                        <option value="categories">categories</option>
+                    </select>
+                    <form class="site-header__form" action="#">
+                        <label class="visually-hidden" for="search-fields"></label>
+                        <input class="input-search" type="search" name="input" id="search-fields"
+                            placeholder="Search Products, categories ..." required>
+                        <button class="search-btn" type="submit"></button>
+                    </form>
+                </div>
+
+                <div class="baskets-wrapper">
+                    <a class="profil" href="#">
+                        <img src="img/user-account.svg" alt="user account icon" width="24" height="24">
+                    </a>
+                    <a class="basket" href="#">
+                        <img src="img/pocket.svg" alt="pocket icon" width="24" height="24">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="site-header__menu">
+            <div class="site-header__menu-container container">
+
+                <ul class="menu-list">
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Bakery</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Fruit and vegetables</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Meat and fish</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Drinks</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Kitchen</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Special nutrition</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Baby</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Pharmacy</a>
+                    </li>
+
+                    <li class="more-item">More
+                        <ul class="menu-list more-list">
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Bakery</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Fruit and vegetables</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Fruit and vegetables</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Meat and fish</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Drinks</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Kitchen</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Special nutrition</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Baby</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Pharmacy</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="site-main">
+        <div class="page-links__wrapper container">
+            <a class="home-page__link" href="index.html">Homepage</a>
+            <a class="category-page__link" href="#">Checkout page</a>
+        </div>
+
+        <div class="form-page-main__container container">
+
+            <section class="form__section">
+                <div class="billig-form__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Billing info</h2>
+                            <p class="form-info__text">Please enter your billing info</p>
+                        </div>
+                        <p class="form-info__page-number">Step 1 of 5</p>
+                    </div>
+
+
+                    <form action="#">
+                        <div class="label-wrapper">
+                            <label for="fname">First name
+                                <input type="text" name="fname" id="fname" placeholder="First name" required>
+                            </label>
+                            <label for="lname">Last name
+                                <input type="text" name="lname" id="lname" placeholder="Last name" required>
+                            </label>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="email">Email address
+                                <input type="email" name="email" id="email" placeholder="Email address" required>
+                            </label>
+                            <label for="number">Phone number
+                                <input type="tel" name="number" id="number" placeholder="Phone number" required>
+                            </label>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="address">Address
+                                <input type="text" name="address" id="adress" placeholder="Address" required>
+                            </label>
+                            <label for="town">Town / City
+                                <input type="text" name="town" id="town" placeholder="Town or city" required>
+                            </label>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="country">State / Country
+                                <select class="country-select" name="" id="">
+                                    <option value="Choose a state or Country">Choose a state or Country</option>
+                                    <option value="">Uzbekiston</option>
+                                    <option value="">The USA</option>
+                                    <option value="">The UK</option>
+                                </select>
+                            </label>
+                            <label for="zip-code">ZIP/Postal code
+                                <input type="number" name="zip-code" id="zip-code" placeholder="Postal code or ZIP"
+                                    required>
+                            </label>
+                        </div>
+                        <label class="input-checkbox form-checkbox" for="input-brands__fields">Ship to a different
+                            address?
+                            <input class="input-check" type="checkbox" name="input-checkbox" id="input-brands__fields">
+                            <span class="checkbox-checkmark form-checkbox__checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="billing-method__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Billing method</h2>
+                            <p class="form-info__text">Please enter your payment method</p>
+                        </div>
+                        <p class="form-info__page-number">Step 2 of 5</p>
+                    </div>
+
+                    <form action="">
+                        <div class="method-box input-wrapper">
+
+                            <label class="input-label" for="method-input-field">FedEx
+                                <input type="radio" name="input-radio-method" id="method-input-field" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <p class="method-text"><span class="method-text__accent">+32 USD</span>Additional price</p>
+                            <img src="img/fedex.svg" alt="FedEx logo" width="54" height="16">
+
+                        </div>
+
+                        <div class="method-box input-wrapper">
+                            <label class="input-label" for="method-input-field2">DHL
+                                <input type="radio" name="input-radio-method" id="method-input-field2">
+                                <span class="checkmark"></span>
+                            </label>
+                            <p class="method-text"><span class="method-text__accent">+32 USD</span>Additional price</p>
+                            <img src="img/dhl.svg" alt="dhl logo" width="94" height="14">
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+                <div class="payment-method__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Payment method</h2>
+                            <p class="form-info__text">Please enter your payment method</p>
+                        </div>
+                        <p class="form-info__page-number">Step 3 of 5</p>
+                    </div>
+
+                    <form action="">
+
+                        <div class="payment-box visa-method">
+
+                            <div class="method-box ">
+                                <label class="input-label" for="payment-input-field2">Credit card
+                                    <input type="radio" name="input-radio-method" id="payment-input-field2">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <img src="img/visa.svg" alt="visa logo" width="94" height="20">
+                            </div>
+                            <label for="card-number-field">Card number</label>
+                            <input class="card-number__box" type="number" name="card-number" id="card-number-field"
+                                placeholder="Card number" required>
+                            <div>
+                                <label for="card-holder__field">Card holder
+                                    <input type="text" name="card-holder" id="card-holder__field"
+                                        placeholder="Card holder" required>
+                                </label>
+                                <label for="date__field">Expiration date
+                                    <input type="date" name="expiration-date" id="date__field" placeholder="DD/MM/YY"
+                                        required>
+                                </label>
+                                <label for="cvc__field">CVC
+                                    <input type="text" name="card-cvc" id="cvc__field" placeholder="CVC" required>
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="payment-box paypal-method">
+
+                            <div class="method-box ">
+                                <label class="input-label" for="paypal-input-field">PayPal
+                                    <input type="radio" name="input-radio-method" id="paypal-input-field">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <img src="img/paypal.svg" alt="paypal logo" width="76" height="20">
+                            </div>
+                            <label for="paypal">Email or phone number</label>
+                            <input class="paypal-input" type="text" name="paypal-number" id="paypal-field"
+                                placeholder="Email or phone number" required>
+                        </div>
+
+
+
+                        <div class="method-box input-wrapper">
+                            <label class="input-label" for="payment-input-field3">DHL
+                                <input type="radio" name="input-radio-method" id="payment-input-field3">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <img src="img/bitcoin.svg" alt="bitcoin logo" width="75" height="16">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="additional-informations">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Additional informations</h2>
+                            <p class="form-info__text">Need something else? We will make it for you!</p>
+                        </div>
+                        <p class="form-info__page-number">Step 4 of 5</p>
+                    </div>
+
+                    <form action="">
+                        <label for="input-info__field">
+                            <input type="text" name="input-info" id="input-info__field"
+                                placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..." required>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="confirmation__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Confirmation</h2>
+                            <p class="form-info__text">We are getting to the end. Just few clicks and your order si
+                                ready!</p>
+                        </div>
+                        <p class="form-info__page-number">Step 5 of 5</p>
+                    </div>
+
+
+                    <form action="">
+                        <label class="input-checkbox form-checkbox" for="input-conf__fields">I agree with sending an
+                            Marketing and newsletter emails. No spam, promissed!
+                            <input class="input-check" type="checkbox" name="input-checkbox-conf"
+                                id="input-conf__fields">
+                            <span class="checkbox-checkmark form-checkbox__checkmark"></span>
+                        </label>
+
+                        <label class="input-checkbox form-checkbox" for="input-conf__fields2">I agree with our <a
+                                href="#">terms and conditions</a> and <a href="#">privacy policy</a>.
+                            <input class="input-check" type="checkbox" name="input-checkbox-conf"
+                                id="input-conf__fields2">
+                            <span class="checkbox-checkmark form-checkbox__checkmark"></span>
+                        </label>
+                        <button class="form-conf__btn card-btn" type="submit">Complete order</button>
+                    </form>
+                    <div class="safe-info">
+                        <img src="img/safe.svg" alt="safe icon" width="26" height="28">
+                        <h3>All your data are safe</h3>
+                        <p>We are using the most advanced security to provide you the best experience ever.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="order-card">
+                <h2 class="order-card__title">Order Summary</h2>
+                <p class="order-card__text">Price can change depending on shipping method and taxes of your state.</p>
+               
+                <div class="order-card__info-wrapper">
+                    <div class="order-card__info">
+                        <img class="order-card__img" src="img/vegs-banner.png" alt="product image" width="100"
+                            height="67">
+                        <a class="order-card__link wishlist" href="#"> Wishlist</a>
+                        <a class="order-card__link compare" href="#"> Compare</a>
+                        <a class="order-card__link remove" href="#"> Remove</a>
+                    </div>
+
+                    <div class="order-card__cost">
+                        <h3 class="order-card__cost-title">Product title</h3>
+                        <div><span class="product-name">Farm:</span><span class="product-name__accent">Tharamis Farm</span></div>
+                         <div><span class="product-name">Freshness:</span><span class="product-name__accent">1 day old</span></div>
+                         <img src="img/star4.svg" alt="">
+                         <p class="order-cost__count">36.99 USD</p>
+                         <span class="cost-discount">48.56 USD</span>
+                    </div>
+                   <div class="order-select__info">
+                       <span class="order-select__text">1 pcs</span>
+                    <select class="order-select" name="" id="">
+                        <option value="">Pcs</option>
+                        <option value="">1 Pcs</option>
+                        <option value="">2 Pcs</option>
+                        <option value="">3 Pcs</option>
+                    </select>
+                   </div>
+                </div>
+
+                <div class="order-card__info-wrapper">
+                    <div class="order-card__info">
+                        <img class="order-card__img" src="img/vegs-banner.png" alt="product image" width="100"
+                            height="67">
+                        <a class="order-card__link wishlist" href="#"> Wishlist</a>
+                        <a class="order-card__link compare" href="#"> Compare</a>
+                        <a class="order-card__link remove" href="#"> Remove</a>
+                    </div>
+
+                    <div class="order-card__cost">
+                        <h3 class="order-card__cost-title">Product title</h3>
+                        <div><span class="product-name">Farm:</span><span class="product-name__accent">Tharamis Farm</span></div>
+                         <div><span class="product-name">Freshness:</span><span class="product-name__accent">1 day old</span></div>
+                         <img src="img/star4.svg" alt="">
+                         <p class="order-cost__count">36.99 USD</p>
+                         <span class="cost-discount">48.56 USD</span>
+                    </div>
+                   <div class="order-select__info">
+                       <span class="order-select__text">1 pcs</span>
+                    <select class="order-select" name="" id="">
+                        <option value="">Pcs</option>
+                        <option value="">1 Pcs</option>
+                        <option value="">2 Pcs</option>
+                        <option value="">3 Pcs</option>
+                    </select>
+                   </div>
+                </div>
+
+                <div class="product-ordering__info">
+                    <span>Subtotal</span>
+                    <span>73.98 USD</span>
+                </div>
+                <div class="product-ordering__info">
+                    <span>Tax</span>
+                    <span>17% 16.53 USD</span>
+                </div>
+                <div class="product-ordering__info">
+                    <span>Shipping</span>
+                    <span>0 USD</span>
+                </div>
+
+                <div class="ordering-form">
+                    <form action="">
+                        <input type="text" name="ordering-promo" id="ordering-promo-code" aria-label="ordering-promo-code" placeholder="Apply promo code">
+                        <button class="ordering-btn" type="submit">Apply now</button>
+                    </form>
+                </div>
+
+                <div class="total-order">
+                    <div class="total-order__info">
+                        <p class="total-order__info-text">Total Order</p>
+                        <p class="total-order__info-deliver">Guaranteed delivery day:  June 12, 2020</p>
+                    </div>
+                    <p class="total-order__cost">89.84 USD</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="site-footer__container container">
+
+            <p class="copy-text">Copyright © 2020 Freshnesecom</p>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

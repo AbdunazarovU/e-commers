@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>eCommerse</title>
+</head>
+
+<body>
+
+    <!-- SITE_HEADER -->
+    <header class="site-header">
+        <div class="site-header__container container">
+            <button class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="sitenav">
+
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">Blog</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">About Us</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">Careers</a>
+                    </li>
+                </ul>
+                <div class="contact-us">
+                    <a class="contact-us__link contact-us__link-chat" href="#">Chat with us</a>
+                    <a class="contact-us__link" href="tel:+420336775664">+420 336 775 664</a>
+                    <a class="contact-us__link" href="#">info@freshnesecom.com</a>
+                </div>
+            </nav>
+
+            <div class="header-main">
+
+                <a class="site-header__logo" href="index.html">
+                    <img class="site-logo__img" src="img/site-header-logo.svg" alt="site logo" width="177" height="18">
+                </a>
+
+                <div class="search-box">
+                    <label class="visually-hidden" for="categories">All categories</label>
+                    <select class="categories-list" id="categories">
+                        <option value="all-categories">All categories</option>
+                        <option value="categories">categories</option>
+                        <option value="categories">categories</option>
+                        <option value="categories">categories</option>
+                    </select>
+                    <form class="site-header__form" action="#">
+                        <label class="visually-hidden" for="search-fields"></label>
+                        <input class="input-search" type="search" name="input" id="search-fields"
+                            placeholder="Search Products, categories ..." required>
+                        <button class="search-btn" type="submit"></button>
+                    </form>
+                </div>
+
+                <div class="baskets-wrapper">
+                    <a class="profil" href="#">
+                        <img src="img/user-account.svg" alt="user account icon" width="24" height="24">
+                    </a>
+                    <a class="basket" href="#">
+                        <img src="img/pocket.svg" alt="pocket icon" width="24" height="24">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="site-header__menu">
+            <div class="site-header__menu-container container">
+
+                <ul class="menu-list">
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Bakery</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Bakery</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Fruit and vegetables</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Meat and fish</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Meat and fish</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Drinks</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Drinks</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Kitchen</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Kitchen</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Special nutrition</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Special nutrition</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Baby</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Baby</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <ul class="dropdown">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Pharmacy</a>
+                            </li>
+                        </ul>
+                        <a class="menu-link" href="#">Pharmacy</a>
+                    </li>
+
+                    <li class="more-item">More
+                        <ul class="menu-list more-list">
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Bakery</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Bakery</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="category_list.html">Fruit and vegetables</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Fruit and vegetables</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Meat and fish</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Meat and fish</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Drinks</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Drinks</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Kitchen</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Kitchen</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Special nutrition</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Special nutrition</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Baby</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Baby</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <ul class="dropdown more-dropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Pharmacy</a>
+                                    </li>
+                                </ul>
+                                <a class="menu-link" href="#">Pharmacy</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+     
+
+    <main class="site-main">
+        <div class="page-links__wrapper container">
+            <a class="home-page__link" href="index.html">Homepage</a>
+            <a class="home-page__link" href="#">Fruit and vegetables</a>
+            <a class="category-page__link" href="#">Carrots from Tomissy Farm</a>
+        </div>
+
+       <div class="content-main__container container">
+
+        <div class="img-wrapper">
+            <img src="img/product-img.png" alt="product image" width="569" height="436">
+            <img src="img/product-img.png" alt="product image" width="569" height="436">
+            <img src="img/product-img.png" alt="product image" width="569" height="436">
+       </div>
+       
+       <div class="content-info">
+           <h1 class="content-info__title">Carrots from Tomissy Farm</h1>
+           <span class="customer-review">(1 customer review)</span>
+           <p class="content-info__text">Carrots from Tomissy Farm are one of the best on the market. Tomisso and his family are giving a full love to his Bio products. Tomisso’s carrots are growing on the fields naturally.</p>
+           
+           <ul class="content-list">
+                <li class="content-item">
+                    <p class="content-item__text">SKU:</p>
+                    <p class="content-item__text">Category:</p>
+                    <p class="content-item__text">Stock:</p>
+                    <p class="content-item__text">Farm:</p>
+                </li>
+
+                <li class="content-item__ans">
+                    <p class="content-item__text">76645</p>
+                     <a class="content-item__link" href="#">
+                       <p class="content-item__text">Vegetables</p>
+                     </a>
+                     <a class="content-item__link" href="#">
+                        <p class="content-item__text">In Stock</p>
+                     </a>
+                    <p class="content-item__text">Grocery Tarm Fields</p>
+                </li>
+
+                <li class="content-item">
+                    <p class="content-item__text">Freshness:</p>
+                    <p class="content-item__text">Freshness:</p>
+                    <p class="content-item__text">Delivery:</p>
+                    <p class="content-item__text">Delivery area</p>
+                </li>
+
+                <li class="content-item__ans">
+                    <p class="content-item__text">1 days old</p>
+                    <p class="content-item__text">pcs, kgs, box, pack</p>
+                    <p class="content-item__text">in 2 days</p>
+                    <p class="content-item__text">Czech republic</p>
+                </li>
+            </ul>
+
+            <div class="content-card">
+                <div>
+                    <p class="content-cost">36.23 USD</p>
+                    <span class="content-cost__disc">48.56 USD</span>
+                </div>
+                <form class="content-form" action="">
+                    <p class="content-form__value">1</p>
+                   <select name="" id="">
+                       <option value="pcs">Pcs</option>
+                       <option value="pcs">Pcs</option>
+                       <option value="pcs">Pcs</option>
+                   </select>
+                </form>
+                <a class="content-form__btn card-btn" href="#">Add to cart</a>
+            </div>
+
+            <div class="content-link__wrapper">
+                <a class="content-link wishlist" href="#">Add to my wish list</a>
+                <a class="content-link compare" href="#">Compare</a>
+            </div>
+
+            <ul class="desc-list">
+                <li class="desc-item">Description</li>
+                <li class="desc-item">Reviews <span>18</span></li>
+                <li class="desc-item">Questions <span>10</span></li>
+            </ul>
+            <div class="light-line"><span class="accent-line"></span></div>
+
+            <h3 class="desc-info__title">Origins</h3>
+            <p class="desc-info__text">We work hard to ensure that the fruit and vegetables we sell are fresh and high in quality. If we don’t grow them ourselves, we source them from carefully chosen suppliers, preferring to buy locally whenever possible.</p>
+             
+            <h3 class="desc-info__title">How to cook</h3>
+            <p class="desc-info__text">From roasts, salads and soups to casseroles and cakes, Carrots will lend sweetness, texture and colour to an enormous number of recipes.</p>
+       
+            <h3 class="desc-info__title">Full of Vitamins!</h3>
+
+            <table>
+                <tr class="tr">
+                    <th>Vitamins</th>
+                    <th>Quantity</th>
+                    <th>% DV</th>
+                </tr>
+                <tr>
+                    <td class="disabled">Vitamin A equiv.</td>
+                    <td class="disabled">735 μg</td>
+                    <td class="disabled">104 %</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Thiamine (B1)</td>
+                    <td class="disabled">0.066 mg</td>
+                    <td class="disabled">6 %</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Niacin (B3)</td>
+                    <td class="disabled">0.983 mg</td>
+                    <td class="disabled">7 %</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Island Trading</td>
+                    <td class="disabled">Helen Bennett</td>
+                    <td class="disabled">UK</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Folate (Bg)</td>
+                    <td class="disabled">19 μg</td>
+                    <td class="disabled">5 %</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Vitamin C</td>
+                    <td class="disabled">5.9 mg</td>
+                    <td class="disabled">7 %</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Vitamin G</td>
+                    <td class="disabled">3.9 mg</td>
+                    <td class="disabled">7 %</td>
+                </tr>
+                <tr>
+                    <td class="disabled">Vitamin K</td>
+                    <td class="disabled">5.9 mg</td>
+                    <td class="disabled">9 %</td>
+                </tr>
+            </table>
+
+        </div>
+         
+       </div>
+       <section class="headline">
+        <div class="headline-container container">
+
+            <div class="global-container">
+                <h2 class="global-container__title">Related products</h2>
+                <a class="global-container__btn" href="#">More products</a>
+            </div>
+
+            <div class="cards-wrapper">
+                <div class="card">
+                    <h3 class="card-title">Product Title</h3>
+                    <p class="card-text">Space for a small product description </p>
+                    <div class="card-box">
+                        <b class="card-price">1.48 USD<span></span></b>
+                        <a class="card-btn btn" href="form-page.html">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Product Title</h3>
+                    <p class="card-text">Space for a small product description </p>
+                    <div class="card-box">
+                        <b class="card-price">1.48 USD<span></span></b>
+                        <a class="card-btn btn" href="form-page.html">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Product Title</h3>
+                    <p class="card-text">Space for a small product description </p>
+                    <div class="card-box">
+                        <b class="card-price">1.48 USD<span></span></b>
+                        <a class="card-btn btn" href="form-page.html">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Product Title</h3>
+                    <p class="card-text">Space for a small product description </p>
+                    <div class="card-box">
+                        <b class="card-price">1.48 USD<span></span></b>
+                        <a class="card-btn btn" href="form-page.html">Buy now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+   
+
+    <footer class="site-footer">
+        <div class="site-footer__container container">
+
+            <ul class="site-footer__list">
+                <li class="site-footer__item">
+                    <h2 class="footer-list__title">Get in touch</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">About Us</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Careers</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Press Releases</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="site-footer__item">
+                    <h2 class="footer-list__title">Connections</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Facebook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Twitter</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Instagram</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Youtube</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">LinkedIn</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="site-footer__item">
+                    <h2 class="footer-list__title">Earnings</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Become an Affiliate</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Advertise your product</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Sell on Market</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="site-footer__item">
+                    <h2 class="footer-list__title">Account</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Your account</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Returns Centre</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">100 % purchase protection</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Chat with us</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <div class="footer-tags">
+                <h2 class="footer-tags__title">Product tags</h2>
+                <ul class="footer-tags__list">
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Beans</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Carrots</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Apples</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Garlic</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Mushrooms</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Tomatoes</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Chilli peppers</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Broccoli</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Watermelons</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Oranges</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Bananas</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Grapes</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Cherries</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Meat</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Seo tag</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Fish</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Seo tag</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Fresh food</a>
+                    </li>
+                    <li class="tags-item">
+                        <a class="tags-link" href="#">Lemons</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
